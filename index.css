@@ -336,7 +336,7 @@ header{
 }
 
 .map .search{
-    margin: 0;
+    margin: 0 0 10px 0;
     background-color: #00788b;
     text-align: center;
     width: 200px;

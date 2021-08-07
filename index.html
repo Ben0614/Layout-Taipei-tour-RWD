@@ -13,12 +13,17 @@
 </head>
 
 <body>
+    <!-- row要和col搭配使用，請注意 -->
+    <!-- 如果盒子無法延伸的話，確認看看主軸方向，還有寬度，父層 -->
 
     <header>
         <div class="container w1280">
             <div class="row justify-content-between align-items-center">
+                <!-- 手機 -->
                 <div class="view d-block d-lg-none">
+                    <!-- 漢堡選單 -->
                     <a href="#"><i class="fas fa-bars"></i></a>
+                    <!-- 漢堡選單list -->
                     <ul class="hum-list d-lg-none">
                         <li><a href="#">
                                 <img src="./images/navbar/color-event.png" alt="">
@@ -52,17 +57,22 @@
                     </ul>
                 </div>
 
+                <!-- 主logo -->
                 <div class="main-logo ">
                     <a href="#"><img src="./images/main-logo-2021.png" alt=""></a>
                 </div>
+                <!-- 我的收藏和登入 -->
                 <div class="right d-flex align-items-center d-blokc d-lg-none">
+                    <!-- 我的收藏 -->
                     <div class="my-collection">
                         <a href="#"><i class="far fa-gem"></i></a>
                     </div>
+                    <!-- 登入 -->
                     <div class="user">
                         <a href="#"><i class="fas fa-user-alt"></i></a>
                     </div>
                 </div>
+
                 <!-- 桌機 -->
                 <div class="com d-none d-lg-block align-items-center">
                     <ul class="d-flex align-items-center">
@@ -75,15 +85,14 @@
                         <li><a href="#"><i class="fab fa-weibo"></i></a></li>
                         <li><a href="#">Language<i class="fas fa-caret-down"></i></a></li>
                         <li><a href="#"><i class="fab fa-google"></i>請選取語言</a></li>
-
                     </ul>
                 </div>
 
             </div>
         </div>
     </header>
-    <!-- 不要加row，盒子會無法延伸 -->
-    <!-- 如果不加row盒子還是無法延伸的話，確認看看主軸方向，還有寬度，父層 -->
+
+    <!-- navbar -->
     <div class="nav-bar d-none d-lg-block">
         <div class="container">
             <ul class="d-lg-flex align-items-center justify-content-lg-center">
@@ -120,6 +129,7 @@
         </div>
     </div>
 
+    <!-- 輪播 -->
     <div class="banner">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -152,6 +162,7 @@
     <div class="info">
         <div class="container">
             <div class="row">
+                <!-- 手機 -->
                 <a href="#" class="d-block d-lg-none">
                     <img src="./images/play-now-zh-tw.jpg" alt="">
                 </a>
@@ -165,6 +176,7 @@
                     <img src="./images/xiangshan-zh-tw.jpg" alt="">
                 </a>
 
+                <!-- 桌機 -->
                 <div class="com d-none d-lg-flex align-items-lg-center">
                     <div class="play d-lg-flex flex-column">
                         <a href="#" class="">
@@ -185,10 +197,12 @@
         </div>
     </div>
 
+    <!-- 台北畫刊話臺北 -->
     <div class="illustrated">
         <div class="container">
             <div class="flex-column">
                 <h2>台北畫刊話臺北</h2>
+                <!-- item區域 -->
                 <div class="item-group d-lg-flex">
                     <div class="item ">
                         <a href="#" class="d-flex flex-lg-column">
@@ -215,6 +229,7 @@
                         </a>
                     </div>
                 </div>
+                <!-- 看更多-按鈕 -->
                 <div class="read-more">
                     <a href="#">看更多畫刊內容</a>
                 </div>
@@ -222,6 +237,7 @@
         </div>
     </div>
 
+    <!-- 輪播2 -->
     <div id="carouselExampleIndicators" class="carousel2 carousel slide mb-2" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -245,15 +261,18 @@
 
     </div>
 
+    <!-- 地圖 -->
     <div class="map">
         <div class="container">
             <div class="row flex-column">
                 <div class="main-map">
                     <div class="text-group">
+                        <!-- 文字區域 -->
                         <p class="first-text">臺北，是什麼模樣？</p>
                         <p class="title">走進你所未見的臺北</p>
                         <p>走進百年街坊相遇新興文創、踏上郊山親近自然芬芳、拜訪商圈體會潮流與藝術的奔放； 旅遊臺北，隨捷運由陽光燦爛，駛進夜裡的霓虹光亮， 在臺北的日子總能令你意猶未盡！</p>
                     </div>
+                    <!-- 手機板地圖 -->
                     <div class="pic d-block d-lg-none">
                         <img src="./images/Snipaste_2021-07-19_12-40-03.png" alt="">
                     </div>
@@ -261,7 +280,7 @@
                         <a href="#">玩樂地圖查詢</a>
                     </div>
                 </div>
-
+                <!-- 手機板button -->
                 <div class="recommed d-lg-none">
                     <div class="search">
                         <a href="#">推薦玩法</a>
@@ -272,7 +291,7 @@
                         <div class="attractions-btn "><a href="#"><i class="fas fa-star"></i>台北畫刊專欄</a></div>
                     </div>
                 </div>
-
+                <!-- 桌機button -->
                 <div class="recommed d-none d-lg-flex justify-content-lg-start ">
                     <div class="search">
                         <a href="#">推薦玩法</a>
@@ -291,6 +310,7 @@
         </div>
     </div>
 
+    <!-- 看完再出發 -->
     <div class="look">
         <div class="container">
             <div class="row flex-column">
@@ -325,10 +345,13 @@
         </div>
     </div>
 
+    <!-- ig區域 -->
+    <!-- 手機板 -->
     <div class="ig d-block d-lg-none">
         <div class="container">
             <div class="row flex-lg-column">
                 <div class="tag d-flex justify-content-between justify-content-lg-start">
+                    <!-- ig logo 圖 -->
                     <a href="#" class="">
                         <img src="./images/instagram.png" alt="">
                     </a>
@@ -338,6 +361,7 @@
                     <a href="#">與我們一起分享屬於你的台北</a>
                     <p>著作權屬拍攝者所有，如需授權請聯繫該作者</p>
                 </div>
+                <!-- 用padding製造空白間隔 -->
                 <div class="pic-group d-flex">
                     <div class="pic1">
                         <img src="./images/2620211888354394142_5768298297.jpg" alt="">
@@ -356,6 +380,8 @@
         </div>
     </div>
 
+    <!-- ig區域 -->
+    <!-- 桌機 -->
     <div class="ig d-none d-lg-block">
         <div class="container">
             <div class="row flex-lg-column">
@@ -374,6 +400,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="pic-group d-flex">
+                    <!-- flex-wrap換行，每張照片設定width20% -->
                     <img src="./images/2620211888354394142_5768298297.jpg" alt="">
                     <img src="./images/2619789210229345885_5768298297.jpg" alt="">
                     <img src="./images/2619668580477553378_5768298297.jpg" alt="">
@@ -392,6 +419,7 @@
         </div>
     </div>
 
+    <!-- 導覽區 -->
     <div class="guide">
         <div class="container">
             <div class="row justify-content-lg-between">
@@ -419,6 +447,7 @@
         </div>
     </div>
 
+    <!-- 熊讚 -->
     <div class="bear">
         <div class="container">
             <div class="row justify-content-center align-items-center">
@@ -435,6 +464,7 @@
     </div>
 
     <footer>
+        <!-- 桌機 -->
         <div class="footer-com d-none d-lg-block">
             <div class="container">
                 <div class="row justify-content-lg-between">
@@ -506,6 +536,7 @@
                 </div>
             </div>
         </div>
+
         <!-- 手機 -->
         <div class="container d-block d-lg-none">
             <div class="row">
@@ -549,9 +580,9 @@
                 </div>
             </div>
         </div>
+
         <!-- 桌機 -->
         <div class="container d-none d-lg-flex justify-content-between py-2">
-            <!-- 盒子flex無法延伸的話，確認看看主軸方向，還有寬度，父層 -->
             <div class="footer-logo ">
                 <img src="./images/taipei.png" alt="">
             </div>
