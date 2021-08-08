@@ -61,11 +61,11 @@ header{
 .view{
     position: relative;
 }
-.view:hover .hum-list{
-    display:block;
-}
 
 .view .hum-list{
+    width: 300px;
+    top: 100%;
+    left: -20px;
     position:absolute;
     z-index:10;
     background-color: #fff;
@@ -79,6 +79,7 @@ header{
     border-bottom: 1px solid #ccc;
     padding: 10px;
 }
+
 .view .hum-list li a{
     color:#000;
 }
