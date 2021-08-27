@@ -190,6 +190,7 @@ header{
 .illustrated .item-group a .text{
     padding:5px 10px;
     flex:1;   
+    color:#000;
 }
 
 .illustrated .read-more{
